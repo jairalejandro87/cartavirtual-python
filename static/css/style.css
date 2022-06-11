@@ -85,7 +85,10 @@ body {
     position: relative;
 }
 
-
+.inicio{
+    background-color: chartreuse;
+    margin: 0;
+}
 
 
 .flash {
