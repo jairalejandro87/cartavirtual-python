@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">  
+<body>
+    <div class="container">
+       
+        <div class="row py-5">
+            <h1 class="text-center">ACORTADOR</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form method="post" action="/create">
+                    <div class="mb-3">
+                      <label for="url" class="form-label">Dirección Url</label>
+                      <input type="text" autofocus autocomplete="off" value="http://localhost:5000/short/{{short}}" class="form-control" name="dirUrl" id="dirUrl" placeholder="Ingresa la dirección o url que quieras acortar https://www.example.com/">
+                    </div>
+                    
+                </form>
+                <div class="d-grid gap-2 col-2 mx-auto">
+                    <form action="/" method="get">
+                        <button type="submit" class="btn btn-success">Acortar otro enlace</button>
+                    </form>           
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+</body>
+</html>

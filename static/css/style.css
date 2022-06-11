@@ -1,0 +1,114 @@
+:root {
+    --color-dark: #15181f;
+    --color-dark-x: #2d343f;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffffff;
+    --color-grey: #f5f6fB;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background: red;
+
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+
+.bg-light {
+    background-color: var(--color-dark) !important;
+}
+
+.bg-dark {
+    background-color: rgb(245, 214, 177)!important;
+}
+
+.dark-x{
+    background-color: var(--color-dark-x) !important;
+}
+
+.dark-xx{
+    background-color: var(--color-dark-xx) !important;
+}
+
+.p-6 {
+    padding: 2rem 6rem;
+}
+
+.contact-box {
+    padding: 3rem;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 13rem;
+}
+
+.btn-outline-light {
+    border: 2px solid var(--color-dark-xx);
+}
+
+.form-control {
+    background-color: var(--color-grey);
+    border: 2px solid var(--color-light);
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+}
+
+.register-bg {
+    background-image: url(/static/imagenTemplates/fresas_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+
+.testimonial {
+    bottom: 10px;
+}
+
+.contenedor {
+    position: relative;
+}
+  
+.inicio {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: -50px 0 0 -450px; 
+}
+
+.titulo{
+    font-size: 10rem;
+    position: relative;
+}
+
+
+
+
+.flash {
+    margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+    .register-bg{
+        min-height: 50vh;
+    }
+
+}
