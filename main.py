@@ -1,5 +1,5 @@
 from cgi import print_arguments
-from tkinter import Image
+#from tkinter import Image
 from config.database import db
 from flask import Flask, flash, render_template, request, redirect, url_for, session
 import re
